@@ -4,7 +4,7 @@
 
 # action-pr-gifs
 
-Post GIF as comments for PRs based on type of the PR.
+Post GIF as comments for PRs based on type of the PR. [Checkout this sample PR](https://github.com/koushikmohan1996/action-pr-gifs/pull/3)
 
 This action uses advanced NLP to detect whether the PR is feature or fix. 
 
