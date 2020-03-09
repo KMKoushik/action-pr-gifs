@@ -1,9 +1,9 @@
 const core = require('@actions/core');
 const github = require('@actions/github');
+const generateGif = require('./gifGenerator');
 
 
 try {
-  const message = 'Well well well, Thanks for the PR';
   const githubToken = core.getInput('GITHUB_TOKEN');
 
   const { context } = github;
@@ -12,7 +12,9 @@ try {
   }
 
   const pullRequestNumber = context.payload.pull_request.number;
+  const prTitle = context.payload.pull_request.body;
   const octokit = new github.GitHub(githubToken);
+  const message = generateGif(prTitle);
 
   octokit.issues.createComment({
     ...context.repo,
