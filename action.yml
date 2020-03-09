@@ -1,5 +1,9 @@
 name: 'PR gif generator'
 description: 'Post GIF as comments for PRs based on type of the PR'
+author: 'Koushik Mohan'
+branding:
+  icon: 'camera'  
+  color: 'purple'
 inputs:
   github-token:
     description: 'Pass in secrets.GITHUB_TOKEN'
