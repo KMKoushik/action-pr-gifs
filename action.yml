@@ -1,13 +1,9 @@
 name: 'PR gif generator'
 description: 'Post GIF as comments for PRs based on type of the PR'
 inputs:
-  who-to-greet:  # id of input
-    description: 'Who to greet'
+  github-token:
+    description: 'Pass in secrets.GITHUB_TOKEN'
     required: true
-    default: 'World'
-outputs:
-  time: # id of output
-    description: 'The time we greeted you'
 runs:
   using: 'node12'
   main: 'dist/index.js'
