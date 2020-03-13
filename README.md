@@ -1,8 +1,12 @@
 
-<p align="center"><img width="300"src="https://media.giphy.com/media/diUKszNTUghVe/giphy.gif"></a></p>
+<p align="center">
+ <img width="300"src="https://media.giphy.com/media/diUKszNTUghVe/giphy.gif">
+</p>
 
 
-# action-pr-gifs
+
+# action-pr-gifs  ![test](https://github.com/koushikmohan1996/action-pr-gifs/workflows/test/badge.svg)
+
 
 Post GIF as comments for PRs based on type of the PR. [Checkout this sample PR](https://github.com/koushikmohan1996/action-pr-gifs/pull/3)
 
